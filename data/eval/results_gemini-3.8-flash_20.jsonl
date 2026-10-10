@@ -1,0 +1,20 @@
+{"question": "西側の近隣都市は？", "gold_answers": ["ビーレフェルト", "ビーレフェルト", "ビーレフェルト"], "answer": "ビーレフェルト", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "GPS衛星自身も測位計算において必要とする何の情報を送信信号に乗せて放送しているか？", "gold_answers": ["事前推算の天体暦", "事前推算の天体暦の情報", "天体暦"], "answer": "事前推算の天体暦", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "オパーリンの唱えた化学進化説で「窒素誘導体の形成」が行われているとの仮説が立てられたが、それを実際の実験で検証した科学者の名は？", "gold_answers": ["スタンリー・ミラー", "スタンリー・ミラー", "スタンリー・ミラー"], "answer": "スタンリー・ミラー", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "オランダは世界有数の性の何区として知られている？", "gold_answers": ["解放区", "解放区", "解放区"], "answer": "解放区", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "宮崎県都城市のように「番」を使わず何を使う自治体も存在する", "gold_answers": ["街区", "街区", "街区"], "answer": "街区", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "電子基準点の前身となるGPSの連続観測はいつから行われた？", "gold_answers": ["1992年", "1992年", "1992年"], "answer": "1992年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "グーテンベルクが使っていたのは何の活字ではないかと言われているか？", "gold_answers": ["木製", "木製の活字", "木製の活字"], "answer": "木製の活字", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "顧客固有要求事項は何を参照するように求めているか", "gold_answers": ["ファイブ・コアツールなどの関連文書", "レイアウト・インスペクション", "関連文書"], "answer": "ファイブ・コアツールなどの関連文書", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "拍子に乗った歌を何というか。", "gold_answers": ["ボギン・ドー", "ボギン・ドー", "ボギン・ドー"], "answer": "ボギン・ドー", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "RAICは何年に設立されたか。", "gold_answers": ["1907年", "1907年", "1907年"], "answer": "1907年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "石油の最大輸入相手国は", "gold_answers": ["サウジアラビア", "サウジアラビア"], "answer": "サウジアラビア", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "感染例は何をさんこうにすればいいか", "gold_answers": ["感染経路", "感染経路"], "answer": "感染経路", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "委員長と常任委員会が選出のはどこで？", "gold_answers": ["地区委員会総会", "地区委員会総会"], "answer": "地区委員会総会", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "質点に働く力がポテンシャルエネルギーの何として表されるか", "gold_answers": ["微分係数", "微分係数", "微分係数"], "answer": "微分係数", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本共産党において職場に基づいてつくられる支部は何か？", "gold_answers": ["職場支部", "職場支部", "職場支部"], "answer": "職場支部", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ラオスの国民議会の議席数は", "gold_answers": ["132", "132議席", "132議席"], "answer": "132議席", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "オランダ政府が、国名としての「ホラント」の使用を廃止したのはいつか。", "gold_answers": ["2020年1月1日", "2020年1月1日", "2020年1月1日"], "answer": "2020年1月1日", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "アニサキスは鮭の身を加熱するかルイベのように一旦どうすることで死滅する", "gold_answers": ["冷凍する", "一旦冷凍する", "冷凍すること"], "answer": "冷凍する", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本共産党の本部の設計者の名は何か", "gold_answers": ["小林良雄", "小林良雄", "小林良雄"], "answer": "小林良雄", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "イギリス女王のアンがなくなった年は？", "gold_answers": ["1714年", "1714年"], "answer": "1714年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}

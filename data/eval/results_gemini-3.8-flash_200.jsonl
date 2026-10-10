@@ -1,0 +1,200 @@
+{"question": "西側の近隣都市は？", "gold_answers": ["ビーレフェルト", "ビーレフェルト", "ビーレフェルト"], "answer": "ビーレフェルト", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "GPS衛星自身も測位計算において必要とする何の情報を送信信号に乗せて放送しているか？", "gold_answers": ["事前推算の天体暦", "事前推算の天体暦の情報", "天体暦"], "answer": "事前推算の天体暦", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "オパーリンの唱えた化学進化説で「窒素誘導体の形成」が行われているとの仮説が立てられたが、それを実際の実験で検証した科学者の名は？", "gold_answers": ["スタンリー・ミラー", "スタンリー・ミラー", "スタンリー・ミラー"], "answer": "スタンリー・ミラー", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "オランダは世界有数の性の何区として知られている？", "gold_answers": ["解放区", "解放区", "解放区"], "answer": "解放区", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "宮崎県都城市のように「番」を使わず何を使う自治体も存在する", "gold_answers": ["街区", "街区", "街区"], "answer": "街区", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "電子基準点の前身となるGPSの連続観測はいつから行われた？", "gold_answers": ["1992年", "1992年", "1992年"], "answer": "1992年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "グーテンベルクが使っていたのは何の活字ではないかと言われているか？", "gold_answers": ["木製", "木製の活字", "木製の活字"], "answer": "木製の活字", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "顧客固有要求事項は何を参照するように求めているか", "gold_answers": ["ファイブ・コアツールなどの関連文書", "レイアウト・インスペクション", "関連文書"], "answer": "ファイブ・コアツールなどの関連文書", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "拍子に乗った歌を何というか。", "gold_answers": ["ボギン・ドー", "ボギン・ドー", "ボギン・ドー"], "answer": "ボギン・ドー", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "RAICは何年に設立されたか。", "gold_answers": ["1907年", "1907年", "1907年"], "answer": "1907年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "石油の最大輸入相手国は", "gold_answers": ["サウジアラビア", "サウジアラビア"], "answer": "サウジアラビア", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "感染例は何をさんこうにすればいいか", "gold_answers": ["感染経路", "感染経路"], "answer": "感染経路", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "委員長と常任委員会が選出のはどこで？", "gold_answers": ["地区委員会総会", "地区委員会総会"], "answer": "都道府県委員会総会", "retrieved": true, "exact_match": false, "char_f1": 0.6250000000000001, "dont_know": false}
+{"question": "質点に働く力がポテンシャルエネルギーの何として表されるか", "gold_answers": ["微分係数", "微分係数", "微分係数"], "answer": "微分係数", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本共産党において職場に基づいてつくられる支部は何か？", "gold_answers": ["職場支部", "職場支部", "職場支部"], "answer": "職場支部", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ラオスの国民議会の議席数は", "gold_answers": ["132", "132議席", "132議席"], "answer": "132議席", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "オランダ政府が、国名としての「ホラント」の使用を廃止したのはいつか。", "gold_answers": ["2020年1月1日", "2020年1月1日", "2020年1月1日"], "answer": "2020年1月1日", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "アニサキスは鮭の身を加熱するかルイベのように一旦どうすることで死滅する", "gold_answers": ["冷凍する", "一旦冷凍する", "冷凍すること"], "answer": "冷凍する", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本共産党の本部の設計者の名は何か", "gold_answers": ["小林良雄", "小林良雄", "小林良雄"], "answer": "小林良雄", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "イギリス女王のアンがなくなった年は？", "gold_answers": ["1714年", "1714年"], "answer": "1714年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "2013年のラオスのGDPはいくらか。", "gold_answers": ["100億ドル", "100億ドル", "100億ドル"], "answer": "100億ドル", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "150年以上、コレラの発生が認められていなかったハイチにコレラを持ち込んだのはどこの部隊？", "gold_answers": ["ネパール", "ネパールの部隊", "ネパール"], "answer": "ネパールの部隊", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "Google検索をラリー・ペイジとセルゲイ・ブリンが開発したのはいつ？？", "gold_answers": ["1997年", "1997年", "1997年"], "answer": "1997年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ポルトガルとトルデシリャス条約を結んだのはいつ", "gold_answers": ["1494年", "スペイン", "1494年"], "answer": "1494年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "国内で自国通貨のキープと同じように流通している通貨は何か", "gold_answers": ["タイバーツ", "タイバーツ", "タイバーツ"], "answer": "タイバーツ", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "建築家の称号が守られていない数少ないEU諸国のひとつを答えよ", "gold_answers": ["スウェーデン", "スウェーデン", "スウェーデン"], "answer": "スウェーデン", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "採用者が求人側企業に採用後一定期間在籍し続けている場合、雇用者側が紹介事業者に対して支払う報酬のうち、ホワイトカラーの紹介の場合の報酬の相場はどれくらいか。", "gold_answers": ["年収の25〜35%程度", "年収の25〜35%程度", "年収の25〜35%程度"], "answer": "年収の25〜35%程度", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "大嘗宮の建設の一般競争入札で、予定価格の何割の価格で落札した", "gold_answers": ["6割", "6割", "6割"], "answer": "6割", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "共産党が制作したチラシをデマといったのはだれ？", "gold_answers": ["安倍首相", "安倍首相", "安倍首相"], "answer": "安倍首相", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "舞踊音楽はどんなことがその舞踊や音楽を特徴づけているか？", "gold_answers": ["同じリズムの繰り返し", "同じリズムの繰り返し", "同じリズムの繰り返し"], "answer": "同じリズムの繰り返し", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ポルトガルは通称何と呼ばれるか。", "gold_answers": ["ポルトガル", "ポルトガル", "ポルトガル"], "answer": "ポルトガル", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "兵庫県の北部（但馬地域）に位置する市で、県北部・但馬地域の中心都市でもあり、兵庫県で最も面積が大きい市は何市か？", "gold_answers": ["豊岡市", "豊岡市", "豊岡市"], "answer": "豊岡市", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "子供はどちらの姓でも構わないが、同じ何の子の名はいずれも同じ姓としなければならないか？", "gold_answers": ["両親", "両親"], "answer": "両親", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "PKOに基づき派遣される各国軍部隊何という？", "gold_answers": ["国際連合平和維持軍", "国際連合平和維持軍"], "answer": "国際連合平和維持軍", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "中国にも梅雨はあるか", "gold_answers": ["中国中部・南部でも梅雨がみられる", "ある", "ある"], "answer": "中国中部・南部でも梅雨がみられる", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "何年4月30日投票の第6期国民議会（一院制、任期5年）選挙の結果選出された国会議員115人のうち114人はラオス人民革命党の党員で、非党員は1人", "gold_answers": ["2006", "2006年"], "answer": "2006年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "フストとグーテンベルクは各頁42行で二巻本のラテン語聖書 (Biblia Sacra) を完成させ、1巻30フローリンで売ったが、それは西暦何年の出来事か？", "gold_answers": ["1455年", "1455年"], "answer": "1455年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "冬の間、シベリアから中国大陸にかけての広範囲を覆う冷たく乾燥した気団は?", "gold_answers": ["シベリア気団", "シベリア気団", "シベリア気団"], "answer": "シベリア気団", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "東ヨーロッパ時間（ひがしヨーロッパじかん、Eastern European Time - EET）は、協定世界時 (UTC)を何時間進ませた標準時？", "gold_answers": ["2時間", "2時間", "2"], "answer": "2時間", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "Googleヘルプセンターが保守しているウェブページ群には何種類以上の検索オプションが紹介されている", "gold_answers": ["15種類", "15種類以上", "15種類"], "answer": "15種類以上", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "オランダは天然ガスの世界第何位の産出国であり輸出国でもある？", "gold_answers": ["第9位", "第9位"], "answer": "第9位", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "せん断ひずみエネルギー U は何基準ですか？", "gold_answers": ["評価基準", "評価基準", "評価基準"], "answer": "評価基準", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本が初めて国際連合平和維持活動に要員を派遣したのは西暦何年か。", "gold_answers": ["1992年", "1992年", "1992年"], "answer": "1992年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "2012年5月1日現在の日本共産党の党員数は？", "gold_answers": ["31万8千人", "31万8千人", "31万8千人"], "answer": "約31万8千人", "retrieved": true, "exact_match": false, "char_f1": 0.923076923076923, "dont_know": false}
+{"question": "2020年3月9日に起こった暴落はどんな暴落？", "gold_answers": ["原油価格暴落", "原油価格暴落", "原油価格暴落"], "answer": "原油価格暴落", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "オランダの公式の英語表記は何というか。", "gold_answers": ["ザ・ネザーランズ", "ザ・ネザーランズ", "ザ・ネザーランズ"], "answer": "ザ・ネザーランズ", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "人民戦線事件がおきたのはいつか", "gold_answers": ["1937年12月から1938年", "1937年12月", "1937年12月から1938年にかけて"], "answer": "1937年12月から1938年にかけて", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "1951年にサラザールはポルトガルの植民地を何と呼び変えた？", "gold_answers": ["海外州", "海外州", "海外州"], "answer": "海外州", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ラオスは、19世紀半ばには、どこの国の支配下にあったか", "gold_answers": ["タイ", "タイ", "タイ"], "answer": "タイ", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "コンゴ共和国の最大都市は？", "gold_answers": ["ブラザヴィル", "ブラザヴィル", "ブラザヴィル"], "answer": "ブラザヴィル", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "真応力はの成分は何によって変化するのか？", "gold_answers": ["座標系", "座標系", "座標系"], "answer": "座標系", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ノンフィクションの語が使われるようになったのはいつ頃？", "gold_answers": ["20世紀の初め", "20世紀の初め", "20世紀"], "answer": "20世紀の初め", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "2021年10月現在、下記の2名。全員がどこからの派遣？", "gold_answers": ["タレント事務所", "タレント事務所", "タレント事務所"], "answer": "タレント事務所", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ソ連のペレストロイカはいつの出来事か？", "gold_answers": ["1986年", "1986年", "1986年"], "answer": "1986年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "アムハラ語に用いられているゲエズ文字の構造は？", "gold_answers": ["アブギダ", "アブギダ", "アブギダ"], "answer": "アブギダ", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "職業として落語を行うのには資格は必要が無いが、出演する興行を行う団体が定める資格が必要になる場合がある。落語協会等の団体では何という仕組みを定めている？", "gold_answers": ["身分制度", "身分制度", "身分制度"], "answer": "身分制度", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "党歴50年以上の党籍長期継続者を表彰する制度とは？", "gold_answers": ["50年党員", "50年党員", "50年党員"], "answer": "50年党員", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "Googleは hCard、hReview、hProduct といったマイクロフォーマットを解析し、それらを検索結果に反映させることを発表したのはいつ", "gold_answers": ["2009年5月12日", "2009年5月12日", "2009年5月12日"], "answer": "2009年5月12日", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "多国籍企業の機関化が活発化したのは何時からか", "gold_answers": ["1980年代以降", "1980年代以降", "1980年代以降"], "answer": "1980年代以降", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "第1回国会はいつ？", "gold_answers": ["1947年", "1947年", "1947年"], "answer": "1947年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "同一協会内の落語家間の序列を何というか。", "gold_answers": ["香盤", "香盤", "香盤"], "answer": "香盤", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "フランス革命が起きたのはいつ", "gold_answers": ["1789年", "1789年", "1789年"], "answer": "1789年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "1899年フランス領インドシナに編入された国家は", "gold_answers": ["ラオス", "ラオス", "ラオス"], "answer": "ラオス", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本語ではハノーヴァー、ハノーバーと表記されることもあるドイツの都市は？", "gold_answers": ["ハノーファー", "ハノーファー", "ハノーファー"], "answer": "ハノーファー", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "国立競技場の設計者は誰ですか", "gold_answers": ["丹下健三）", "丹下健三", "丹下健三"], "answer": "丹下健三", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "オランダの沿岸漁業の中心産物は？", "gold_answers": ["ムール貝、カキ、エビおよび舌平目", "ムール貝、カキ、エビおよび舌平目", "ムール貝、カキ、エビおよび舌平目"], "answer": "ムール貝、カキ、エビおよび舌平目", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "落語家で昇進するとなにになれる？", "gold_answers": ["真打", "真打", "真打"], "answer": "真打", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "読売新聞によると、日本はソ連の指導者のことを「同志」や何と言っていたか。", "gold_answers": ["レーニンに次ぐ平和の戦士", "平和の戦士", "レーニンに次ぐ平和の戦士"], "answer": "レーニンに次ぐ平和の戦士", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "第45回衆議院議員総選挙の投開票日はいつか？", "gold_answers": ["2009年8月30日", "2009年8月30日", "2009年8月30日"], "answer": "2009年8月30日", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "第22回党大会第7回中央委員会総会は略して？", "gold_answers": ["7中総", "7中総", "第24回党大会"], "answer": "7中総", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "『交響曲第2番ハ短調』が完成したのはいつ？", "gold_answers": ["1894年12月18日", "1896年"], "answer": "1894年12月18日", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ホラント王国に変えられのは", "gold_answers": ["1806年", "バタヴィア共和国", "オランダ"], "answer": "バタヴィア", "retrieved": true, "exact_match": false, "char_f1": 0.7692307692307693, "dont_know": false}
+{"question": "ボギン・ドー（短い歌）とは", "gold_answers": ["拍子に乗った歌", "短い歌", "拍子に乗った歌"], "answer": "拍子に乗った歌", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "緩衝地帯における撮影は紛争当事者の作戦・兵力・装備・陣地の何の観点から厳格に禁止するか？", "gold_answers": ["秘匿", "禁止する", "撮影"], "answer": "秘匿", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "各政党はサスヌゲソ派の「コブラ」、リスバ派の「ズールー」、そしてコレラ派の何か？", "gold_answers": ["ニンジャ", "ニンジャ", "ニンジャ"], "answer": "ニンジャ", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "講師資格試験はいつから始まったか", "gold_answers": ["1967年（昭和42年）", "1967年", "1967年（昭和42年）"], "answer": "1967年(昭和42年)", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "武装闘争路線を放棄したのはいつ？", "gold_answers": ["1955年", "1955年", "1955年"], "answer": "1955年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "1860年代に微生物の発生について調べるため白鳥の首フラスコを用いた実験をした人は誰か。", "gold_answers": ["ルイ・パスツール", "ルイ・パスツール", "ルイ・パスツール"], "answer": "ルイ・パスツール", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "コンゴ共和国最大都市は？", "gold_answers": ["ブラザヴィル", "ブラザヴィル", "ブラザヴィル"], "answer": "ブラザヴィル", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "多国籍企業の機関化は所有の国際化であって、いつ以降以降証券化と相互補完のうえ急進したか", "gold_answers": ["1980年代", "1980年代", "1980年代以降"], "answer": "1980年代以降", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "炭化水素の構造はトポロジー的には何構造と何構造とがあるか。", "gold_answers": ["鎖状構造と環構造", "鎖状構造と環構造", "鎖状構造と環構造"], "answer": "鎖状構造と環構造", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本の文部科学省の長の名称は", "gold_answers": ["文部科学大臣", "文部科学大臣", "文部科学大臣"], "answer": "文部科学大臣", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "政治目的での争議行為が憲法28条の保障の外にあると解される理由は？", "gold_answers": ["団体行動権の趣旨・沿革", "団体行動権の趣旨・沿革"], "answer": "団体行動権の趣旨・沿革", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "豊岡市は中央部を円山川が流れ、市内中央部には但馬最大の盆地である何盆地が広がるか？", "gold_answers": ["豊岡盆地", "豊岡盆地", "豊岡盆地"], "answer": "豊岡盆地", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "アメリカ、ドイツ、中国各国企業に次ぎ、外資系企業として4番目の企業数となっている国は", "gold_answers": ["オランダ", "オランダ", "オランダ"], "answer": "オランダ", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "戦車、軍用機、軍艦などの燃料は？", "gold_answers": ["石油", "石油", "石油"], "answer": "石油", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "天体暦の精度は現在どうなっている", "gold_answers": ["精緻", "ますます精緻なものとなっている", "ますます精緻なものとなっている"], "answer": "ますます精緻なものとなっている", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "労働基本権は憲法何条か。", "gold_answers": ["憲法28条", "28条", "28条"], "answer": "二八条", "retrieved": true, "exact_match": false, "char_f1": 0.3333333333333333, "dont_know": false}
+{"question": "ポルトガルの軍隊の正式名称は", "gold_answers": ["ポルトガル国軍", "ポルトガル国軍（Forças Armadas Portuguesas、FAP）", "ポルトガル国軍"], "answer": "ポルトガル国軍", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "三ヶ根山（愛知県）と長谷山（三重県津市）に移動無線中継局が新設されたことに伴い、新たに何台のレポートカーが導入された？", "gold_answers": ["2台", "2台", "2台"], "answer": "2台", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "アメリカ本土の北方に位置し、冬季オリンピックも開催された大国は。", "gold_answers": ["カナダ", "カナダ", "カナダ"], "answer": "わかりません。", "retrieved": false, "exact_match": false, "char_f1": 0.0, "dont_know": true}
+{"question": "コンゴ最大の港湾は？", "gold_answers": ["海に面するポワントノワール港", "ポワントノワール港", "ポワントノワール港"], "answer": "ポワントノワール港", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "一般の応力について材料の特性値を調べるのは困難か容易か", "gold_answers": ["困難", "困難"], "answer": "困難", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本共産党の略称をローマ字３文字で現すと？", "gold_answers": ["JCP", "JCP", "JCP"], "answer": "JCP", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "用者が自分で既知点にGNSS機器を設置する必要がなくなりで測量作業が効率化されるものは", "gold_answers": ["電子基準点", "電子基準点"], "answer": "電子基準点", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "Googleであらゆる検索結果がマルウェアだと分類されてしまったのは何年", "gold_answers": ["2009年", "2009年", "2009年"], "answer": "2009年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本共産党は2010年後時期総選挙で何万票の獲得を目指しているか？", "gold_answers": ["650万票", "650万票", "650万票"], "answer": "650万票", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "オランダの、農家への普及指導業務は何年代に民営化された？", "gold_answers": ["1990年代", "1990年代", "1990年代"], "answer": "1990年代", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "関東や東北など東日本で梅雨の時期よりも雨量が多いのは何の時期", "gold_answers": ["秋雨", "秋雨", "秋"], "answer": "秋雨", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "人事行政の専門機関として地方公共団体に置かれている組織はなにか", "gold_answers": ["人事委員会又は公平委員会", "人事委員会又は公平委員会", "人事委員会又は公平委員会"], "answer": "人事委員会又は公平委員会", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "他党と比べてどの武力行使に慎重？", "gold_answers": ["専守防衛", "専守防衛", "専守防衛"], "answer": "専守防衛", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "米国には2011年2月の石油備蓄は", "gold_answers": ["17.27億バレル", "17.27億バレル", "17.27億バレル"], "answer": "17.27億バレル", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "リボ核酸の略称は何か", "gold_answers": ["RNA", "RNA"], "answer": "RNA", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "1958年の第7回党大会以降は、党中央の要職に就任した改革派とは？", "gold_answers": ["不破哲三", "不破哲三や上田耕一郎", "不破哲三や上田耕一郎など"], "answer": "不破哲三や上田耕一郎", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "パックマン30周年記念の日はいつ？", "gold_answers": ["2010年5月21日", "2010年5月21日", "2010年5月21日"], "answer": "2010年5月21日", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "在留資格制度、出入国在留管理庁の役割、不法入国や不法在留に関する罰則等）、並びに難民条約及び難民議定書に基づく難民認定制度等を定めた日本の法令", "gold_answers": ["所管官庁は、法務省である。", "出入国管理及び難民認定法", "出入国管理及び難民認定法"], "answer": "出入国管理及び難民認定法", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "国際連合平和維持活動を日本では何と称されるか。", "gold_answers": ["PKO", "PKO", "PKO"], "answer": "PKO", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "中央委員会の入居する日本共産党本部ビルは東京のどの街にありますか？", "gold_answers": ["渋谷区千駄ヶ谷", "渋谷区千駄ヶ谷4丁目26-7"], "answer": "千駄ヶ谷", "retrieved": true, "exact_match": false, "char_f1": 0.7272727272727273, "dont_know": false}
+{"question": "石油の輸入相手国1位はどこ？", "gold_answers": ["サウジアラビア", "サウジアラビア"], "answer": "サウジアラビア", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "DNA分子を連結させるDNAリガーゼ機能を持つ「デオキシリボザイム」が発見されたのは何年か。", "gold_answers": ["2004年", "2004年", "2004年"], "answer": "2004年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "鮭の回帰性を発見した人の名前は", "gold_answers": ["青砥武平治", "青砥武平治", "青砥武平治"], "answer": "青砥武平治", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "UNTSOを日本語でこたえよ", "gold_answers": ["国際連合休戦監視機構", "国際連合休戦監視機構", "国際連合休戦監視機構"], "answer": "国際連合休戦監視機構", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ほとんど不気味で静かな絵画のようだったと証言したのは？", "gold_answers": ["ワルター", "ワルター", "ワルター"], "answer": "ワルター", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "第何条に他党に所属しつつ日本共産党員になること（重党籍）はできないと表記されている？", "gold_answers": ["第7条", "第7条", "第7条"], "answer": "第7条", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本共産党が第7回中央委員会総会を開いたのはいつか？", "gold_answers": ["2008年9月", "2008年9月", "2008年9月"], "answer": "2008年9月", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "尖閣漁船衝突事件は西暦何年の出来事でしょうか？", "gold_answers": ["2010年", "2010年", "2010年"], "answer": "2010年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "トポロジー的には鎖状構造と環構造のいずれもとりうるものは？", "gold_answers": ["炭化水素", "炭化水素の構造", "炭化水素"], "answer": "炭化水素の構造", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "1899年、ルアンパバーン王国はどこの保護国となったか", "gold_answers": ["フランス", "フランス領インドシナ", "フランス"], "answer": "フランス", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "王室建設局がサーベイヤーという職名をアーキテクトという呼称に切り替えたのは西暦何年か", "gold_answers": ["1761年", "1761年", "1761年"], "answer": "1761年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本共産党の略称は？", "gold_answers": ["共産党", "共産党", "共"], "answer": "JCP", "retrieved": true, "exact_match": false, "char_f1": 0.0, "dont_know": false}
+{"question": "交響曲は10曲中何曲が（第1番を現存版で考えると8曲）が、オーストリア人にとっては既に外国となっていたドイツで初演されている", "gold_answers": ["7曲", "7曲"], "answer": "7曲", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "喜界島では梅雨は何と呼ばれるか。", "gold_answers": ["なーみっさ", "なーみっさ", "なーみっさ"], "answer": "なーみっさ", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本共産党は東京都議会議員選挙で何議席を獲得した？", "gold_answers": ["19議席", "19議席"], "answer": "19議席", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "第40回衆院選はいつあったか？", "gold_answers": ["1993年", "1993年（平成5年）", "1993年"], "answer": "1993年(平成5年)", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本共産党に入党するには党員何人の推薦が必要でしょうか。", "gold_answers": ["2名", "2名", "2名"], "answer": "2名", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本語ではリズムを1フットに整えるため、1モーラの音が何モーラになるか", "gold_answers": ["2モーラ", "2モーラ分", "2モーラ"], "answer": "2モーラ分", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "沸点何度以上の蒸留で、船舶のエンジンやボイラーに用いられる重油は精製される？", "gold_answers": ["沸点320℃以上", "320℃", "320℃"], "answer": "320°C", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "RKBラジオとMBSラジオはどのような関係でしょうか？", "gold_answers": ["資本関係", "資本関係", "資本関係"], "answer": "資本関係", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "中国大陸方面と日本列島・朝鮮半島方面でせめぎ合う気団は同じか。", "gold_answers": ["異なる", "違う", "異なる"], "answer": "異なる", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "軌道長半径においての「G」とは？", "gold_answers": ["重力定数", "重力定数", "重力定数"], "answer": "重力定数", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "水力発電によってラオスはなんと呼ばれているか。", "gold_answers": ["東南アジアのバッテリー", "東南アジアのバッテリー", "東南アジアのバッテリー"], "answer": "東南アジアのバッテリー", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "オランダがフランスの直轄領とされたのは何年か", "gold_answers": ["1810年", "1810年", "1810年"], "answer": "1810年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "国連要人と家族関係にあったことが指摘されているのはジャーナリズムと何の産業？", "gold_answers": ["軍需産業", "軍需産業", "軍需産業"], "answer": "軍需産業", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "17.27億バレルの石油備蓄をもっているのはどこ", "gold_answers": ["米国", "米国", "米国"], "answer": "米国", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "平和維持の実行の為に多国間で訓練することを何と呼ぶ？", "gold_answers": ["国際連合平和維持活動", "国際連合平和維持活動", "国際連合平和維持活動"], "answer": "わかりません。", "retrieved": true, "exact_match": false, "char_f1": 0.0, "dont_know": true}
+{"question": "アムハラ語の何音は非常に鋭い発音？", "gold_answers": ["放出音", "放出音", "放出音"], "answer": "放出音", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "RIAI に許可を得るためには最低何年", "gold_answers": ["7年", "最低7年", "2年"], "answer": "2年以上", "retrieved": true, "exact_match": false, "char_f1": 0.6666666666666666, "dont_know": false}
+{"question": "求職者ありきの職業紹介を行う職業紹介事業は何と呼ばれているか？", "gold_answers": ["ジョブハンティング", "ジョブハンティング", "ジョブハンティング"], "answer": "ジョブハンティング", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "当時、日本共産党はどこと、日本政治の中では革新陣営に属していたか？", "gold_answers": ["日本社会党", "日本社会党", "日本社会党"], "answer": "日本社会党", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "2009年4月施行の学校保健安全法の施行規則で「感染症」に改められ、一般に何と呼ばれたか", "gold_answers": ["学校感染症", "学校感染症", "学校感染症"], "answer": "学校感染症", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "何教勢力のペラーヨがアストゥリアス王国を建国した？", "gold_answers": ["キリスト教", "キリスト教勢力", "キリスト教"], "answer": "キリスト教", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "生命の起源に関する実験は行なっていない人は誰か？", "gold_answers": ["パスツール", "パスツール", "パスツール"], "answer": "パスツール", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ラオスが国連に加盟した年は？", "gold_answers": ["1955年", "1955年", "1955年"], "answer": "1955年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "1960年代から、国政選挙では当選の可能性を度外視して全ての選挙区で候補を擁立する戦術を取っていた党は？", "gold_answers": ["日本共産党", "日本共産党", "日本共産党"], "answer": "日本共産党", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "フランスの直轄領として併合されたのはいつ？", "gold_answers": ["1810年", "1810年", "1810年"], "answer": "1810年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ブラジルで建築の仕事をするために必要な資格は何か。", "gold_answers": ["CREA", "CREA", "CREA"], "answer": "CREA", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ダカール・ラリーにおいてポルトガルでの経由地はどこ？", "gold_answers": ["リスボン", "リスボン", "リスボン"], "answer": "リスボン", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "警察白書では日本共産党をいかなる団体と記載しているか", "gold_answers": ["調査対象団体", "調査対象団体", "調査対象団体"], "answer": "調査対象団体", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本共産党が開会式に出席するようになったのは、第何回国会か。", "gold_answers": ["第190回国会", "第190回", "第190回国会"], "answer": "第190回国会", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "九州地方の最後のAMステレオ放送実施局はどこ？", "gold_answers": ["RKBラジオ", "RKBラジオ", "福岡本局"], "answer": "RKBラジオ", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "東日本大震災の発生日はいつか。", "gold_answers": ["2011年3月11日", "2011年3月11日", "2011年3月11日"], "answer": "2011年3月11日", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "1949年の総選挙で日本共産党は何議席獲得したか？", "gold_answers": ["35議席", "35議席", "35"], "answer": "35議席", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "世界中で最もアクセス数が多いサイトはどこ。", "gold_answers": ["google.com", "google.com", "google.com"], "answer": "google.com", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本におけるサケの人工孵化と放流を茨城県の那珂川ではじめて試験的に行ったのはいつ？", "gold_answers": ["1876年", "1876年", "1876年"], "answer": "1876年(明治9年)", "retrieved": true, "exact_match": false, "char_f1": 0.7142857142857143, "dont_know": false}
+{"question": "ロッテルダムからドイツのルール地方への貨物専用鉄道が完成したのは何年", "gold_answers": ["2007年", "2007年", "2007年"], "answer": "2007年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "2016年6月26日のNHKの討論番組においての不適切発言によって辞任したのは？", "gold_answers": ["藤野保史", "藤野保史", "藤野保史"], "answer": "藤野保史", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ポルトガルで話されている言語は？", "gold_answers": ["ポルトガル語", "ポルトガル語"], "answer": "ポルトガル語", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本共産党は「共産党イコール既存OOOO国の手先」というコミンテルン以来のイメージとは全く違った対応を国際問題でとっている。Oに当てはまる語句を答えなさい", "gold_answers": ["社会主義", "社会主義国", "社会主義"], "answer": "社会主義", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "小笠原諸島に梅雨はあるか", "gold_answers": ["ない", "ない", "ない"], "answer": "梅雨がない", "retrieved": true, "exact_match": false, "char_f1": 0.5714285714285715, "dont_know": false}
+{"question": "ポルトガルがモロッコ北端の要衝セウタを攻略したのはいつ", "gold_answers": ["1415年", "1415年", "1415年"], "answer": "1415年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ドイツの都市マインツの上流階級の商人フリーレ・ゲンスフライシュ・ツア・ラーデンとその2番目の妻で商店主の娘エルゼ・ヴューリヒの間に末っ子として生まれたのは誰？", "gold_answers": ["ヨハネス・グーテンベルク", "ヨハネス・グーテンベルク", "ヨハネス・グーテンベルク"], "answer": "ヨハネス・グーテンベルク", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ノンフィクションライターが登場するようになったのはいつ？", "gold_answers": ["1960年代から1970年代にかけて", "1960年代から1970年代", "960年代から1970年代にかけて"], "answer": "1960年代から1970年代にかけて", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "オーストリア帝国とハンガリー王国が同君連合になっていたのは", "gold_answers": ["1867年から1918年", "1867年から1918年"], "answer": "1867年から1918年にかけて", "retrieved": true, "exact_match": false, "char_f1": 0.8571428571428571, "dont_know": false}
+{"question": "一連の特定の要件を提示し、各地域に存在する環境の多様性のために独自のライセンスを付与している州別試験は何か。", "gold_answers": ["ARE", "高等法", "ARE"], "answer": "ARE", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "炭素原子と水素原子だけでできた化合物の総称は？", "gold_answers": ["炭化水素", "炭化水素", "炭化水素"], "answer": "炭化水素", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "フランクフルトからアムステルダム中央駅まで直通している高速列車は", "gold_answers": ["ICE", "ICE", "ICE"], "answer": "ICE", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "2004年参議院大阪府選挙区で立候補した辻元清美の当時の所属政党は何ですか？", "gold_answers": ["社民党", "社民党", "社民党"], "answer": "社民党", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "梅雨がないとされている都道府県はどこ？", "gold_answers": ["北海道", "北海道", "北海道"], "answer": "北海道", "retrieved": false, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "マリア出現の地として世界的に有名な巡礼地はどこか。", "gold_answers": ["ファティマ", "ファティマ", "ファティマ"], "answer": "ファティマ", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "2012年に3か国保護地域として世界遺産に登録されたのは何川流域か？", "gold_answers": ["サンガ川", "サンガ川流域", "サンガ川流域"], "answer": "サンガ川", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "Google検索の検索結果ページでの表示順序は?", "gold_answers": ["ページランク", "ページランク"], "answer": "主に「ページランク」と呼ばれるランク付けに基づいている", "retrieved": true, "exact_match": false, "char_f1": 0.3870967741935484, "dont_know": false}
+{"question": "触媒作用を有するRNAである「リボザイム」が発見されたのはいつ", "gold_answers": ["1981年", "1981年", "1981年"], "answer": "1981年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "x が比較的どんな場合にのみ成り立つか。", "gold_answers": ["小さい場合", "小さい場合", "小さい場合"], "answer": "小さい場合", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "権限・権利を引っくるめて地方党の何という？", "gold_answers": ["自治権", "自治権", "自治権"], "answer": "自治権", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "オランダの代表企業として、国内だけでなく、石油メジャーとして世界中でエネルギー資源開発を行っている企業は？", "gold_answers": ["ロイヤル・ダッチ・シェル", "ロイヤル・ダッチ・シェル", "ロイヤル・ダッチ・シェル"], "answer": "ロイヤル・ダッチ・シェル", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "アクセントのある拍が周期的に繰り返されるとなにが生まれる？", "gold_answers": ["拍子", "拍子が生まれる。", "拍子"], "answer": "拍子", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "英国王立建築家協会の略称は？", "gold_answers": ["RIBA", "RIBA", "RIBA"], "answer": "RIBA", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "真打制度と密接に関係している同一協会内の落語家間の序列は?", "gold_answers": ["香盤", "香盤", "香盤"], "answer": "香盤", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "職業訓練の資格は何によって付与されるか。", "gold_answers": ["専門家協会", "専門家協会", "専門家協会"], "answer": "専門家協会", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本共産党内で、基本的に個々の党員が所属し、日常的な党生活を送る組織の名称は？", "gold_answers": ["支部", "党グループ", "支部"], "answer": "支部", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ヨーロッパの王侯が行っているのは", "gold_answers": ["通婚", "通婚"], "answer": "通婚", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "自動車部品メーカーのコンチネンタルAGが本社を構えるのはどこの都市？", "gold_answers": ["ハノーファー", "ハノーファー", "ハノーファー"], "answer": "ハノーファー", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ウクライナ政府が「反政府組織」として認識している地域は？", "gold_answers": ["ルガンスク人民共和国", "ルガンスク人民共和国", "クライナの東部のルハーンシク州（ロシア語名ルガンスク）でロシア連邦への編入を求める分離・独立派が独立を宣言した地域"], "answer": "ルガンスク人民共和国", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "コンゴ共和国が石油輸出国機構（OPEC）に加盟したのはいつか", "gold_answers": ["2018年", "2018年", "2018年"], "answer": "2018年", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "高気圧の間にできた低気圧とともに春の移り変わりやすい天候を作り出している気団は？", "gold_answers": ["揚子江気団", "揚子江気団", "揚子江気団"], "answer": "揚子江気団", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "赤嶺政賢の所属政党は？", "gold_answers": ["日本共産党", "日本共産党"], "answer": "日本共産党", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "Google検索は、ウェブページ内の何コードを検索対象としている？", "gold_answers": ["HTML", "HTMLコード", "ウェブページ内のHTMLコード"], "answer": "HTMLコード", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "1946年6月に独自の憲法草案として「日本人民共和国憲法草案」を発表、各党憲法草案の中で唯一明記されていたことはなに。", "gold_answers": ["人民主権（国民主権）", "人民主権", "人民主権"], "answer": "人民主権(国民主権)", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "感情を超えて判断する以外にも禁止事項を避けることで、秩序を保つことに成功している経済大国は？", "gold_answers": ["オランダ", "オランダ", "オランダ"], "answer": "オランダ", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "人類が採掘可能な石油埋蔵量を何という？", "gold_answers": ["究極可採埋蔵量", "究極可採埋蔵量", "究極可採埋蔵量"], "answer": "究極可採埋蔵量", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "1968年にサラザールが不慮の事故で昏睡状態に陥ると、誰が後を継いだ？", "gold_answers": ["マルセロ・カエターノ", "マルセロ・カエターノ", "マルセロ・カエターノ"], "answer": "マルセロ・カエターノ首相", "retrieved": true, "exact_match": false, "char_f1": 0.9, "dont_know": false}
+{"question": "2018年11月の時点で、ウィキデータの情報は英語版ウィキペディアの全記事の何％で使用されていたか", "gold_answers": ["58.4%", "58.4%", "58.4%"], "answer": "58.4%", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ピアノ伴奏のままの『若き日の歌』のオーケストレーション化を試みたのは？", "gold_answers": ["ルチアーノ・ベリオ", "ルチアーノ・ベリオ", "ルチアーノ・ベリオ"], "answer": "ルチアーノ・ベリオ", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ヨーロッパで初めて木版が作成されたのはいつか。", "gold_answers": ["14世紀", "14世紀", "14世紀"], "answer": "14世紀", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本における組み込みソフトウェア技術者数は、2007年には何万人と推計されたか。", "gold_answers": ["23.5万人", "23.5万人", "23.5万人"], "answer": "23.5万人", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "現在、科学の領域における仮説の多くは、誰の進化論を論拠としているでしょうか？", "gold_answers": ["チャールズ・ダーウィン", "チャールズ・ダーウィン", "チャールズ・ダーウィン"], "answer": "チャールズ・ダーウィン", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "日本共産党の武装闘争・騒乱事件は？", "gold_answers": ["血のメーデー事件、火炎瓶事件など", "血のメーデー事件、火炎瓶事件", "血のメーデー事件、火炎瓶事件"], "answer": "血のメーデー事件、火炎瓶事件", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "ナポレオン戦争終結後も王室は遷都先のどこに留まったか", "gold_answers": ["ブラジル", "ブラジル", "ブラジル"], "answer": "ブラジル", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
+{"question": "国際平和維持活動に含まれる任務は", "gold_answers": ["軍事作戦から民事作戦、警察活動まで", "軍事作戦から民事作戦、警察活動", "軍事作戦から民事作戦、警察活動"], "answer": "軍事作戦から民事作戦、警察活動まで非常に幅広い", "retrieved": true, "exact_match": false, "char_f1": 0.8421052631578948, "dont_know": false}
+{"question": "世界有数の性の解放区として知られている国は？", "gold_answers": ["オランダ", "オランダ", "オランダ"], "answer": "オランダ", "retrieved": true, "exact_match": true, "char_f1": 1.0, "dont_know": false}
