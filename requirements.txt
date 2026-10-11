@@ -1,3 +1,6 @@
+# CPU-only PyTorch: the default Linux build pulls gigabytes of GPU (CUDA) libraries.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1+cpu
 google-genai
 fastapi>=0.115
 uvicorn[standard]>=0.30
@@ -11,3 +14,4 @@ beautifulsoup4>=4.12
 python-dotenv>=1.0
 numpy
 pytest
+streamlit>=1.35.0

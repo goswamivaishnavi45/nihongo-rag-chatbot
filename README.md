@@ -73,6 +73,12 @@ uvicorn app.main:app --port 8000         # first start builds the index (~1 minu
 ```
 Then open http://127.0.0.1:8000. Interactive API docs are at `/docs`.
 
+**Streamlit version** (streaming answers, conversation memory):
+```bash
+streamlit run streamlit_app.py
+```
+On Streamlit Community Cloud, add `GEMINI_API_KEY` (and optionally `GEMINI_MODEL`) under the app's **Secrets**.
+
 **With Docker:**
 ```bash
 docker build -t japanese-rag .

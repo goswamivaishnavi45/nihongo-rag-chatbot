@@ -18,7 +18,7 @@ from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field
 
 from app.generator import MODEL, generate
-from app.jsquad import load_jsquad, load_or_build_index
+from app.documents import load_or_build_app_index
 from app.retriever import Retriever
 
 STATIC_DIR = Path(__file__).resolve().parent.parent / "static"
@@ -53,10 +53,11 @@ def check_rate_limit(http_request: Request) -> None:
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    chunks, _ = load_jsquad()
-    state["retriever"] = Retriever(load_or_build_index(chunks))
+    # The chatbot searches the immigration guidebook plus the JSQuAD Wikipedia articles.
+    index = load_or_build_app_index()
+    state["retriever"] = Retriever(index)
     # Document titles, so users (and the bot) can see what it knows. Sources look like "梅雨/p0".
-    state["topics"] = sorted({c.source.split("/")[0].replace("_", " ") for c in chunks})
+    state["topics"] = sorted({c.source.split("/")[0].replace("_", " ") for c in index.chunks})
     yield  # the server runs while we're paused here
 
 

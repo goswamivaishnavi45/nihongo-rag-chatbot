@@ -5,10 +5,11 @@ The system prompt is what keeps the model grounded: answer only from the
 passages, cite them, and say "I don't know" instead of guessing.
 """
 import os
+import time
 
 from dotenv import load_dotenv
 from google import genai
-from google.genai import types
+from google.genai import errors, types
 
 from app.chunking import Chunk
 
@@ -35,9 +36,53 @@ def get_client() -> genai.Client:
     return _client
 
 
-def build_prompt(question: str, chunks: list[Chunk]) -> str:
+def build_prompt(question: str, chunks: list[Chunk], history: list[str] | None = None) -> str:
     context = "\n\n".join(f"[{i}] (source: {c.source})\n{c.text}" for i, c in enumerate(chunks, start=1))
-    return f"Context passages:\n\n{context}\n\nQuestion: {question}"
+    earlier = ""
+    if history:  # lets the model understand follow-ups like "where do I apply?"
+        earlier = "Earlier messages from the user, oldest first:\n" + "\n".join(f"- {h}" for h in history) + "\n\n"
+    return f"Context passages:\n\n{context}\n\n{earlier}Question: {question}"
+
+
+def call_model(system: str, contents: str) -> str:
+    # Google's servers occasionally return temporary 5xx or 429 rate-limit errors.
+    # Retry with exponential backoff.
+    for attempt in range(4):
+        try:
+            response = get_client().models.generate_content(
+                model=MODEL, contents=contents, config=types.GenerateContentConfig(system_instruction=system)
+            )
+            break
+        except (errors.ServerError, errors.ClientError) as e:
+            # 429 rate limit / quota exhaustion can be retried with a wait
+            is_429 = getattr(e, "code", None) == 429 or "429" in str(e)
+            if isinstance(e, errors.ClientError) and not is_429:
+                raise
+            if attempt == 3:
+                raise
+            time.sleep(3 * (2**attempt))  # wait 3s, 6s, 12s
+    # .text is None when the model returns no text (e.g. blocked by a safety filter)
+    return response.text or ""
+
+
+# Query rewriting. Users write casually ("I changed my job"); the guidebook uses formal
+# administrative Japanese (所属機関に関する届出). Rewriting the question into the document's
+# style before searching closes that gap, and resolves follow-ups using earlier messages.
+# The rules are deliberately general: putting specific test-set wordings here would
+# inflate the evaluation score without helping real users (overfitting to the test set).
+REWRITE_PROMPT = """You turn a user's message into a search query for an official Japanese government guidebook for foreign residents living in Japan.
+
+Rules:
+- Write ONE standalone search query in Japanese, using the formal administrative vocabulary that official Japanese government documents use.
+- If the message is a follow-up ("where do I apply?", "how much is it?"), use the earlier messages to make the query complete.
+- Keep the user's actual intent. Do not answer the question.
+- Reply with only the query, nothing else."""
+
+
+def rewrite_query(question: str, history: list[str] | None = None) -> str:
+    earlier = "".join(f"Earlier message: {h}\n" for h in history or [])
+    rewritten = call_model(REWRITE_PROMPT, f"{earlier}Latest message: {question}").strip()
+    return rewritten or question  # if the rewrite comes back empty, search with the original
 
 
 # Evaluation only: JSQuAD's correct answers are short phrases (小笠原諸島), so a full
@@ -55,15 +100,15 @@ def topics_rule(topics: list[str]) -> str:
     )
 
 
-def generate(question: str, chunks: list[Chunk], short: bool = False, topics: list[str] | None = None) -> str:
+def generate(
+    question: str,
+    chunks: list[Chunk],
+    short: bool = False,
+    topics: list[str] | None = None,
+    history: list[str] | None = None,
+) -> str:
     system = SYSTEM_PROMPT + (SHORT_ANSWER_RULE if short else "") + (topics_rule(topics) if topics else "")
-    response = get_client().models.generate_content(
-        model=MODEL,
-        contents=build_prompt(question, chunks),
-        config=types.GenerateContentConfig(system_instruction=system),
-    )
-    # .text is None when the model returns no text (e.g. blocked by a safety filter)
-    return response.text or "(no answer returned)"
+    return call_model(system, build_prompt(question, chunks, history)) or "(no answer returned)"
 
 
 if __name__ == "__main__":

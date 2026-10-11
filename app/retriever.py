@@ -65,6 +65,14 @@ class Retriever:
             positions = rrf([self.semantic(question, candidates), self.keyword(question, candidates)])[:k]
         return [self.chunks[p] for p in positions]
 
+    def search_many(self, queries: list[str], k: int = 5, candidates: int = 20) -> list[Chunk]:
+        """Hybrid search with several phrasings of the same question (e.g. the user's words
+        and a rewritten query), all fused with RRF. If one phrasing misses, the others still vote."""
+        rankings = []
+        for query in dict.fromkeys(queries):  # skip duplicates, keep order
+            rankings += [self.semantic(query, candidates), self.keyword(query, candidates)]
+        return [self.chunks[p] for p in rrf(rankings)[:k]]
+
 
 if __name__ == "__main__":
     import sys

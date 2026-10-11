@@ -3,3 +3,6 @@
 __pycache__/
 data/index/
 INTERVIEW_QA.md
+data/docs/
+data/answer_key/
+.streamlit/secrets.toml

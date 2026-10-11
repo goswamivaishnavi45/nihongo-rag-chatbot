@@ -22,7 +22,7 @@ COPY --chown=user . .
 
 # Download the embedding model and build the index while BUILDING the image,
 # so the container starts in seconds instead of downloading and embedding on every start.
-RUN python -c "from app.jsquad import load_jsquad, load_or_build_index; load_or_build_index(load_jsquad()[0])"
+RUN python -c "from app.documents import load_or_build_app_index; load_or_build_app_index()"
 
 EXPOSE 7860
 HEALTHCHECK CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:7860/api/health')"
