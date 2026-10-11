@@ -21,10 +21,11 @@ SYSTEM_PROMPT = """You answer questions using ONLY the numbered context passages
 
 Rules:
 - Use only facts stated in the passages. Do not use outside knowledge, even if you know the answer.
+- Summarize or explain what the passages state regarding the user's question.
 - After each fact, cite the passage it came from in square brackets, like [2].
-- If the passages do not contain the answer, do not guess. Reply "わかりません。" if the question is in Japanese, or "I don't know based on the documents." if it is in English.
+- If the passages contain no relevant information at all, reply "わかりません。" if the question is in Japanese, or "I don't know based on the documents." if it is in English.
 - Answer in the same language as the question.
-- Keep the answer short and direct."""
+- Keep the answer clear, helpful, and direct."""
 
 _client = None
 

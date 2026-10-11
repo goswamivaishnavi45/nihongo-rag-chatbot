@@ -48,7 +48,7 @@ def get_api_key() -> str:
     return ""
 
 from app.documents import load_or_build_app_index
-from app.generator import MODEL, SYSTEM_PROMPT, build_prompt, topics_rule
+from app.generator import MODEL, REWRITE_PROMPT, SYSTEM_PROMPT, build_prompt, topics_rule
 from app.retriever import Retriever
 
 # Page Configuration
@@ -288,6 +288,23 @@ def generate_streaming(question: str, top_chunks, history: list[str]):
             raise se
 
 
+def rewrite_query_safe(question: str, history: list[str] | None = None, key: str = "") -> str:
+    """Translates casual/English questions into official Japanese administrative terminology for optimal retrieval."""
+    if not key:
+        return question
+    try:
+        client = genai.Client(api_key=key)
+        earlier = "".join(f"Earlier message: {h}\n" for h in history or [])
+        res = client.models.generate_content(
+            model=MODEL,
+            contents=f"{earlier}Latest message: {question}",
+            config=types.GenerateContentConfig(system_instruction=REWRITE_PROMPT),
+        )
+        return (res.text or "").strip() or question
+    except Exception:
+        return question
+
+
 # Input handling (from user type or example button click)
 prompt_input = st.chat_input("質問を入力してください / Ask a question in Japanese or English...")
 override = st.session_state.pop("user_input_override", None)
@@ -304,17 +321,23 @@ elif user_prompt:
 
     # Prepare Assistant Response
     with st.chat_message("assistant"):
-        # 1. Retrieve relevant chunks
-        with st.spinner("ドキュメントを検索中... / Searching documents..."):
-            top = retriever.search(user_prompt, k=5)
-            sources = [{"number": i, "source": c.source, "text": c.text} for i, c in enumerate(top, start=1)]
-
-        # 2. Gather conversation history for context
+        # 1. Gather conversation history for context
         prior_history = [
             m["content"]
             for m in st.session_state.messages
             if m["role"] == "user" and m["content"] != user_prompt
         ]
+
+        # 2. Retrieve relevant chunks (Hybrid Search + Query Rewriting)
+        with st.spinner("ドキュメントを検索中... / Searching documents..."):
+            key = get_api_key()
+            queries = [user_prompt]
+            if key:
+                rewritten = rewrite_query_safe(user_prompt, prior_history, key)
+                if rewritten and rewritten.strip() != user_prompt.strip():
+                    queries.append(rewritten.strip())
+            top = retriever.search_many(queries, k=5)
+            sources = [{"number": i, "source": c.source, "text": c.text} for i, c in enumerate(top, start=1)]
 
         # 3. Stream Response with Fallback
         try:
