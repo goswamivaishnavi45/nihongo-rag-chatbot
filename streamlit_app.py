@@ -26,19 +26,30 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Streamlit Community Cloud secret resolution (fallback gracefully if no secrets.toml)
-try:
-    if "GEMINI_API_KEY" in st.secrets and not os.getenv("GEMINI_API_KEY"):
-        os.environ["GEMINI_API_KEY"] = st.secrets["GEMINI_API_KEY"]
-    if "GEMINI_MODEL" in st.secrets:
-        os.environ["GEMINI_MODEL"] = st.secrets["GEMINI_MODEL"]
-except Exception:
-    pass
+from google import genai
+from google.genai import errors, types
+
+def get_api_key() -> str:
+    # 1. Custom key entered in the UI sidebar
+    if st.session_state.get("custom_api_key"):
+        return st.session_state["custom_api_key"]
+    # 2. Environment variable (.env or hosted env)
+    env_key = os.getenv("GEMINI_API_KEY", "").strip()
+    if env_key:
+        return env_key
+    # 3. Streamlit Community Cloud secrets (Settings -> Secrets)
+    try:
+        if "GEMINI_API_KEY" in st.secrets:
+            return str(st.secrets["GEMINI_API_KEY"]).strip()
+        if "gemini_api_key" in st.secrets:
+            return str(st.secrets["gemini_api_key"]).strip()
+    except Exception:
+        pass
+    return ""
 
 from app.documents import load_or_build_app_index
-from app.generator import MODEL, SYSTEM_PROMPT, build_prompt, get_client, topics_rule
+from app.generator import MODEL, SYSTEM_PROMPT, build_prompt, topics_rule
 from app.retriever import Retriever
-from google.genai import errors, types
 
 # Page Configuration
 st.set_page_config(
@@ -194,6 +205,20 @@ with st.sidebar:
     st.markdown(f"**🤖 モデル**: `{MODEL}`")
     st.markdown(f"**📊 チャンク総数**: `{len(retriever.chunks):,} chunks`")
 
+    # API Key Input / Status
+    active_key = get_api_key()
+    if not active_key:
+        st.warning("⚠️ **APIキー未設定 / API Key Needed**")
+        st.caption("Settings > Secrets に未設定の場合は、以下にキーを入力してください：")
+        entered_key = st.text_input("Gemini API Key", type="password", key="sidebar_key_input", placeholder="AIzaSy...")
+        if entered_key:
+            st.session_state["custom_api_key"] = entered_key.strip()
+            os.environ["GEMINI_API_KEY"] = entered_key.strip()
+            st.success("✅ 設定完了！")
+            st.rerun()
+    else:
+        st.caption("🔑 APIキー設定済み (Configured)")
+
     if st.button("🗑️ 会話をリセット (Clear Chat)", use_container_width=True):
         st.session_state.messages = []
         st.rerun()
@@ -226,9 +251,14 @@ for msg in st.session_state.messages:
 
 # Function to Stream Generation from Gemini
 def generate_streaming(question: str, top_chunks, history: list[str]):
+    key = get_api_key()
+    if not key:
+        yield "⚠️ **Gemini APIキーが設定されていません。**\n\n左側のサイドバーにAPIキーを入力するか、Streamlit Cloudの **Manage app > Settings > Secrets** に `GEMINI_API_KEY` を登録してください。"
+        return
+
     system = SYSTEM_PROMPT + topics_rule(topics)
     prompt = build_prompt(question, top_chunks, history)
-    client = get_client()
+    client = genai.Client(api_key=key)
 
     for attempt in range(3):
         try:
