@@ -172,8 +172,51 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+# What users can ask about: the guidebook's 12 chapters (Japanese, English).
+# Shown up front so visitors ask questions the bot can answer, and again whenever it can't.
+GUIDEBOOK_TOPICS = [
+    ("在留手続（在留カード・ビザの更新・永住）", "Residence procedures (residence card, visa renewal, permanent residence)"),
+    ("市区町村での手続（住所・結婚・マイナンバー）", "City office procedures (address, marriage, My Number card)"),
+    ("仕事（給料・残業・退職・ハラスメント）", "Work (wages, overtime, quitting, harassment)"),
+    ("出産・子育て（出生届・児童手当）", "Childbirth & parenting (birth registration, child allowance)"),
+    ("教育（学校・日本語の勉強）", "Education (schools, learning Japanese)"),
+    ("医療（病院・健康保険・薬局）", "Medical care (hospitals, health insurance, pharmacies)"),
+    ("年金・福祉", "Pension & welfare"),
+    ("税金（所得税・住民税・確定申告）", "Taxes (income tax, inhabitant tax, tax returns)"),
+    ("交通（交通ルール・運転免許）", "Traffic (road rules, driver's license)"),
+    ("緊急・災害（救急車・地震・台風）", "Emergencies & disasters (ambulance, earthquakes, typhoons)"),
+    ("住まい（賃貸・公営住宅）", "Housing (renting, public housing)"),
+    ("生活のルール（ごみの出し方・騒音）", "Daily rules (garbage sorting, noise)"),
+]
+
+
+def is_japanese(text: str) -> bool:
+    # Hiragana/katakana (U+3040–U+30FF) or kanji (U+4E00–U+9FFF)
+    return any("぀" <= ch <= "ヿ" or "一" <= ch <= "鿿" for ch in text)
+
+
+def dont_know_help(question: str) -> str:
+    """Shown under an "I don't know" answer, so the app guides the user instead of looking broken."""
+    if is_japanese(question):
+        topics = "\n".join(f"- {ja}" for ja, _ in GUIDEBOOK_TOPICS)
+        return (
+            "\n\n---\n💡 この質問の答えは、収録しているガイドブックに見つかりませんでした。"
+            f"次のようなテーマについて質問できます:\n{topics}\n\n"
+            "ほかのことは、お住まいの市区町村の役所に問い合わせてください。"
+        )
+    topics = "\n".join(f"- {en}" for _, en in GUIDEBOOK_TOPICS)
+    return (
+        "\n\n---\n💡 I couldn't find this in the guidebook I use. You can ask me about:\n"
+        f"{topics}\n\nFor anything else, please ask your local city or ward office."
+    )
+
+
 # Sidebar
 with st.sidebar:
+    with st.expander("📋 質問できるテーマ / What you can ask about", expanded=True):
+        for ja, en in GUIDEBOOK_TOPICS:
+            st.markdown(f"**{ja}**  \n<small>{en}</small>", unsafe_allow_html=True)
+    st.markdown("---")
     st.subheader("📖 収録ドキュメント / Knowledge Base")
     st.info(
         """
@@ -228,7 +271,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = [
         {
             "role": "assistant",
-            "content": "こんにちは！日本の生活・就労ガイドブックや公式情報について何でも質問してください。\n(Ask me anything in Japanese or English; answers are grounded with official document citations.)",
+            "content": "こんにちは！在留手続、仕事、医療、税金、子育て、災害など、日本での生活について質問してください。質問できるテーマは左のサイドバーにあります。\n\n(Hi! Ask me about living in Japan: residence procedures, work, healthcare, taxes, childcare, disasters and more, in Japanese or English. All topics are listed in the sidebar.)",
             "sources": [],
         }
     ]
@@ -345,6 +388,11 @@ elif user_prompt:
         except Exception as e:
             full_response = f"⚠️ 回答の生成中にエラーが発生しました: {e}"
             st.error(full_response)
+
+        if isinstance(full_response, str) and ("わかりません" in full_response or "don't know" in full_response.lower()):
+            help_text = dont_know_help(user_prompt)
+            st.markdown(help_text)
+            full_response += help_text
 
         # 4. Show Document Sources
         if sources:

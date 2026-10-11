@@ -11,6 +11,8 @@ app_port: 7860
 
 A chatbot that answers questions from Japanese documents, citing the passage each answer came from. Ask in Japanese **or English**: retrieval works across languages, and the answer comes back in the language you asked in.
 
+**🔴 Live demo: https://nihongo-rag-chatbot-byqkjsgcjyos7kikhit9ls.streamlit.app/**
+
 **[English](#english) | [日本語](#日本語)**
 
 <!-- Add a demo GIF here: ![demo](docs/demo.gif) -->
@@ -21,6 +23,14 @@ A chatbot that answers questions from Japanese documents, citing the passage eac
 
 ### Why this project
 Japanese is harder than English for search: there are no spaces between words, the same character can be written in full-width or half-width form, and official documents use formal vocabulary (紛失, "loss") that users don't type (なくした, "lost"). This project handles each of those, and it's evaluated with metrics instead of eyeballing, because I don't read Japanese myself.
+
+### What you can ask
+The main source is the Immigration Services Agency's **生活・就労ガイドブック** (Guidebook on Living and Working), so the bot answers practical questions about living in Japan: residence procedures (residence card, visa renewal, permanent residence), city office procedures, work, childbirth and parenting, education, medical care, pension and welfare, taxes, traffic, emergencies and disasters, housing, and daily rules such as garbage sorting. For example:
+- 在留カードをなくしたらどうすればいいですか？ (I lost my residence card. What should I do?)
+- What number do I call for an ambulance?
+- 国に帰るとき、年金はもどってきますか？ (Can I get my pension back when I leave Japan?)
+
+If a question isn't covered, the bot says so instead of guessing, and lists the topics it can help with.
 
 ### How it works
 ```
